@@ -37,3 +37,25 @@ Within the Keychain Access drop down menu, select _**Keychain Access &gt; Certif
 
 点击 Continue 进入 Confirm yourApp ID 界面，点击Register 按钮完成注册。
 
+### Devices
+
+**Registering a New Device or Multiple Devices**，用于开发调试打包
+
+![](/assets/user/user_devices.png)
+
+### Provisioning Profiles
+
+**Select Type**：选择一个需要的类型
+
+**Configure**：
+
+1、Select App ID：选择前面创建的应用的ID
+
+2、Select certificates：选择一个前面生成的证书（开发对应开发证书、发布对应发布证书）
+
+3、Select devices：选择可以用于该应用调试的设备（Development的需要，Distribution的没有该选项）
+
+**Generate**：输入 _Profile Name_，点击 **Continue **按钮生成profile文件
+
+**Download**：点击 Download 按钮下载profile文件，双击下载的profile文件，就可以在xcode中选择了
+
