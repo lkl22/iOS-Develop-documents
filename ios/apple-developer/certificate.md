@@ -23,7 +23,7 @@ Within the Keychain Access drop down menu, select _**Keychain Access &gt; Certif
 
 **Request**：About Creating a Certificate Signing Request \(CSR\)，按指导生成CSR文件
 
-**Generate**：上传生成的CSR文件（测试和发布可以使用同一个CSR文件生成证书），点击**Continue**生成证书（证书名为：生成CSR时填的Common Name字段）
+**Generate**：上传生成的CSR文件（测试和发布可以使用同一个CSR文件生成证书），点击**Continue**生成证书
 
 **Download**：点击 **Download **按钮下载证书，双击证书文件添加到 **Keychain **中
 
@@ -62,6 +62,4 @@ Within the Keychain Access drop down menu, select _**Keychain Access &gt; Certif
 ### Export the certificate
 
 为了多人合作开发，需要导出证书添加到其他人的电脑的Keychain中，并且将项目的Provisioning Profile一起提供给团队其他人![](/assets/user/user_export_certificate.png)![](/assets/user/user_export_certificate1.png)
-
-
 
