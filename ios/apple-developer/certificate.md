@@ -1,6 +1,8 @@
 ### Introduction
 
-### 开发者账号申请成功后，登录后点击** Certificates, Identifiers & Profiles **进入证书管理界面![](/assets/user/user_certificates.png)Certificates
+### 开发者账号申请成功后，登录后点击** Certificates, Identifiers & Profiles **进入证书管理界面![](/assets/user/user_certificates.png)
+
+### Certificates
 
 #### Creating a Certificate Signing Request \(CSR\)
 
@@ -21,7 +23,17 @@ Within the Keychain Access drop down menu, select _**Keychain Access &gt; Certif
 
 **Request**：About Creating a Certificate Signing Request \(CSR\)，按指导生成CSR文件
 
-**Generate**：Upload CSR file.Select certSigningRequest file saved on your Mac.点击**Continue**生成证书（证书名为：生成CSR时填的Common Name字段）
+**Generate**：上传生成的CSR文件（测试和发布可以使用同一个CSR文件生成证书），点击**Continue**生成证书（证书名为：生成CSR时填的Common Name字段）
 
 **Download**：点击 **Download **按钮下载证书，双击证书文件添加到 **Keychain **中
+
+### Identifiers
+
+![](/assets/user/user_identifiers.png)
+
+**select services**
+
+![](/assets/user/user_identifiers1.png)
+
+点击 Continue 进入 Confirm yourApp ID 界面，点击Register 按钮完成注册。
 
