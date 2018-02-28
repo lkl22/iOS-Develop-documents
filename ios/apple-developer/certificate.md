@@ -21,7 +21,7 @@ Within the Keychain Access drop down menu, select _**Keychain Access &gt; Certif
 
 **Request**：About Creating a Certificate Signing Request \(CSR\)，按指导生成CSR文件
 
-**Generate**：
+**Generate**：Upload CSR file.Select certSigningRequest file saved on your Mac.点击**Continue**生成证书（证书名为：生成CSR时填的Common Name字段）
 
-
+**Download**：点击 **Download **按钮下载证书，双击证书文件添加到 **Keychain **中
 
