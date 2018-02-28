@@ -59,3 +59,9 @@ Within the Keychain Access drop down menu, select _**Keychain Access &gt; Certif
 
 **Download**：点击 Download 按钮下载profile文件，双击下载的profile文件，就可以在xcode中选择了
 
+### Export the certificate
+
+为了多人合作开发，需要导出证书添加到其他人的电脑的Keychain中，并且将项目的Provisioning Profile一起提供给团队其他人![](/assets/user/user_export_certificate.png)![](/assets/user/user_export_certificate1.png)
+
+
+
