@@ -1,6 +1,10 @@
+#### WARNING ITMS-90076: "Potential Loss of Keychain Access"
+
+![](/assets/user/user_issue_itms-90076.png)
+
 #### 修改App Store中显示的开发者名称
 
-1、登入 http://itunesconnect.apple.com
+1、登入 [http://itunesconnect.apple.com](http://itunesconnect.apple.com)
 
 2、点击页面右下方的 Contact Us
 
